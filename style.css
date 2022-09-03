@@ -11,6 +11,10 @@ body {
   width: 400px;
   background-color: black;
   color: white;
+  margin: 0 auto;
+  margin-top: 0.5%;
+  padding-bottom: 2%;
+  border-radius: 5%;
 }
 
 .screen {
@@ -18,12 +22,12 @@ body {
   font-size: 40px;
   font-family: "Courier New", Courier, monospace;
   text-align: right;
-  padding: 20px 5px;
+  padding: 30px 5px;
 }
 
 .calc-button {
-  background-color: #d8d9db;
-  color: black;
+  background-color: #222222a4;
+  color: rgb(136, 0, 255);
   height: 100px;
   width: 24.5%;
   border: none;
@@ -49,16 +53,16 @@ body {
 }
 
 .calc-button:last-child {
-  background-color: #df974c;
+  background-color: rgb(136, 0, 255);
   color: white;
 }
 
 .calc-button:last-child:hover {
-  background-color: #dfb07e;
+  background-color: rgba(136, 0, 255, 0.681);
 }
 
 .calc-button:last-child:active {
-  background-color: #dd8d37;
+  background-color: rgba(136, 0, 255, 0.624);
 }
 
 .calc-button-row {
